@@ -1,4 +1,4 @@
-FROM microsoft/mssql-server-linux
+FROM microsoft/e4ebb5377723
 WORKDIR /setup
 COPY ./setup .
 RUN chmod +x entrypoint.sh
